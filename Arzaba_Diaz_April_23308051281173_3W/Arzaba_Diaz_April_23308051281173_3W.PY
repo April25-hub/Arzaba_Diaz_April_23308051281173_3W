@@ -1,0 +1,29 @@
+print("")
+print ("Arzaba_Diaz_April_3W_1173_")
+print("")
+#capturar el apellido paterno del usuario
+apellido_paterno = input("ingresa tu apellido paterno: ")
+
+#capturar el apellido materni del usuario
+apellido_materno = input("ingresa tu apellido materno: ")
+
+#captura el nombre del usuario
+nombre = input ("ingresa tu nombre ")
+print(" ")
+#imprime cada variable por separado
+print("apellido paterno:",apellido_paterno)
+print("apellido materno:",apellido_materno)
+print("nombre:",nombre) 
+print (" ")
+#unir las variables para formar el nombre completo
+nombre_completo=apellido_paterno + " " + apellido_materno + " " +  nombre
+print(" ")
+#imprimir el nombre completo
+print("nombre completo:", nombre_completo)
+print(" ")
+#convertir el nombre completo a mayusculas
+nombre_completo_a_mayusculas=nombre_completo.upper()
+print(" ")
+#imprimir el nombre completo en mayusculas
+print("nombre_completo_en_mayusculas:",
+nombre_completo_a_mayusculas)
